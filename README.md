@@ -6,7 +6,7 @@ This repository contains a small, fast detector for the take-home assignment:
 python predict.py image.jpg
 ```
 
-It prints a single score from `0` to `1`, where `1` means the image is likely a photo of a screen / recapture.
+It prints a single score from `0` to `1`, where `1` means the image is likely a photo of a screen / recapture
 
 ## Approach
 
