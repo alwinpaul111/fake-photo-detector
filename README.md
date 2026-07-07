@@ -49,4 +49,4 @@ The evaluator reports accuracy, confusion counts, and latency. The default cutof
 
 ## Cost
 
-The detector runs locally and does not call any API. On-device cost is effectively `$0` per image, apart from normal device CPU/battery use.
+The detector runs locally and does not call any API  On-device cost is effectively `$0` per image, apart from normal device CPU/battery use.
