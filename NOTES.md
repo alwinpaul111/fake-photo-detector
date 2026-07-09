@@ -20,8 +20,8 @@ The detector is designed to be instant: it downsizes the long edge to 768 px and
 
 ## Cost Per Image
 
-Cost per image is effectively `$0` because inference runs locally and does not use a cloud API. At scale, the main cost is device CPU/battery. If run on a server, the code is lightweight enough to batch many images per CPU core, so cost should be negligible compared with a neural-network API call.
+Cost per image is effectively `$0` because inference runs locally and does not use a cloud API. At scale, the main cost is device CPU/battery. If run on a server, the code is lightweight enough to batch many images per CPU core, so cost should be negligible compared with a neural-network API call
 
 ## Improvements
 
-The biggest improvement would be calibration on real collected data. I would add a small validation harness that logs failure cases, tune the cutoff to the desired false-positive rate, and maintain a rolling evaluation set as cheaters adapt. If a pure heuristic plateaus, the next step would be a tiny mobile CNN trained on crops plus the current handcrafted features, distilled/quantized for on-device inference.
+The biggest improvement would be calibration on real collected data. I would add a small validation harness that logs failure cases, tune the cutoff to the desired false-positive rate, and maintain a rolling evaluation set as cheaters adapt. If a pure heuristic plateaus, the next step would be a tiny mobile CNN trained on crops plus the current handcrafted features, distilled/quantized for on-device inference
