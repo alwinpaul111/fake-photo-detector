@@ -29,7 +29,7 @@ I used a deterministic computer-vision detector instead of a trained neural mode
 
 ## Evaluate
 
-Create a dataset like this:
+Create a dataset like this:-
 
 ```text
 dataset/
