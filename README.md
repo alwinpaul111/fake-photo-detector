@@ -15,7 +15,7 @@ I used a deterministic computer-vision detector instead of a trained neural mode
 - periodic frequency peaks from the display pixel grid or moire patterns
 - horizontal/vertical frequency energy from screen scan/grid structure
 - chromatic aliasing from RGB sub-pixels interacting with the camera sensor
-- display-like highlights, clipping, and saturated backlit color
+- display-like highlights , clipping , and saturated backlit color
 
 `predict.py` extracts these features with Pillow + NumPy, combines them with a small hand-tuned logistic score, and returns the resulting probability-like value. The implementation resizes the image to a maximum long edge of 768 px, so runtime is mostly constant across large input files.
 
