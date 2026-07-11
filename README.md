@@ -1,6 +1,6 @@
 # Spot the Fake Photo
 
-This repository contains a small, fast detector for the take-home assignment:
+This repository contains a fast detector for the take-home assignment:
 
 ```bash
 python predict.py image.jpg
